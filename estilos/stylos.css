@@ -1,0 +1,90 @@
+html{
+  box-sizing: border-box;
+}
+
+*, *:before, *:after{
+  box-sizing: inherit;
+}
+
+body{
+  font-family: 'Lato', sans-serif;
+}
+
+
+/*barra de navegacion */
+
+.barra{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: black;
+  padding: 0 3rem;
+  
+}
+
+
+
+.navegacion a:hover{
+  color: darkolivegreen;
+}
+
+.barra a:last-of-type{
+  margin-right: 4rem;
+}
+
+.cabecera{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100vh;
+  background-image: url(https://insuca2020.milaulas.com/pluginfile.php/26/course/overviewfiles/aprender-programacion-web.jpg);
+  background-position: center;
+}
+
+.navegacion a {
+  text-decoration: none;
+  padding-right: 1.8rem;
+  font-weight: 900;
+  color: rgba(255, 255, 255, 0.822);
+
+}
+.logo img{
+  height: 100px;
+  width: 100px;
+}
+.personales{
+  margin: 0;
+}
+.tema{
+  margin-left: 5rem;
+}
+.personales img{
+  border-radius: 50px;
+  display: flex;
+  flex-direction: column;
+  margin-left: 3rem;
+ height: 100px;
+}
+.personales-info {
+  padding-right: 1.8rem;
+  font-weight: 900;
+  width: 300px;
+  height: 600;
+  opacity: 0%;
+}
+.personales-info:hover{
+  display: flex;
+  flex-direction: column;
+  width: 400px; 
+ height: 690px; 
+  background: #79D2CE;
+  opacity: 100%;
+  padding: 1rem;
+  padding-top: 8rem;
+
+}
+
+.personales h1{
+  
+  position: absolute;
+}
