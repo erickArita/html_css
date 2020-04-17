@@ -76,7 +76,7 @@ body{
   display: flex;
   flex-direction: column;
   width: 400px; 
- height: 690px; 
+ height: 522px; 
   background: #79D2CE;
   opacity: 100%;
   padding: 1rem;
@@ -85,6 +85,23 @@ body{
 }
 
 .personales h1{
-  
   position: absolute;
+}
+
+.seccion{
+  
+}
+
+.footer-nav{
+  height: 100px;
+}
+
+.icon i{
+  color: rgba(255, 255, 255, 0.822);
+  
+}
+
+.icon i:hover{
+  color: darkolivegreen;
+ 
 }
