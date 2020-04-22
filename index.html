@@ -8,11 +8,14 @@
   <title>CURICULUM</title>
 
 
-  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
+    integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
   <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700,900&display=swap" rel="stylesheet">
-  <link href="">
+   
   <link rel="stylesheet" href="./estilos/stylos.css">
   <link rel="stylesheet" href="./estilos/normalize.css">
+  <link rel="stylesheet" href="estilos/animacion.css">
+  
 </head>
 
 <body>
@@ -26,8 +29,8 @@
 
         <nav class="navegacion">
           <a href="/">INICIO</a>
-          <a href="#">ESCOLARIDAD</a>
-          <a href="#">EXPERIENCIA LABORAL</a>
+          <a href="#escolaridad">ESCOLARIDAD</a>
+          <a href="#experiencia">EXPERIENCIA LABORAL</a>
           <a href="#">REFERENCIAS PERSONALES</a>
         </nav>
       </div>
@@ -53,12 +56,86 @@
     </div>
 
   </header>
-  <section class="seccion">
-    <div>
-      <i></i>
+
+
+
+  <section name class="seccion animated bounceInLeft " id="escolaridad" >
+    <h2>ESCOLARIDAD</h2>
+    <div class="i-estudio   ">
+      
+      <i class="fas fa-graduation-cap  "></i>
+
     </div>
+
+    <div class="col "  >
+
+
+      <div  class="card animated " id="card1" onmouseover="document.getElementById('card1').classList.add('pulse'); "onmouseout="document.getElementById('card1').classList.remove('pulse');">
+        <div>
+          <h2>PRIMARIOS</h2>
+        </div>
+        <h3> Escuela Saúl Bueso Casteñeda</h3>
+        <P>En Santa Rita Copán</P>
+        <p>2009-2014</p>
+      </div>
+
+      <div class="card animated" id="card2">
+        <div>
+
+          <h2>SECUNDARIOS</h2>
+        </div>
+        <h3>Instituto Superacion Cashapa</h3>
+        <p>CICLO COMÚN</p>
+        <p>BTP EN INFORMÁTICA</p>
+      </div>
+
+    </div>
+
   </section>
 
+  <section name class="seccion animated bounceIn " id="experiencia">
+    <h2>ESCOLARIDAD</h2>
+    <div class="i-estudio   ">
+      
+      <i class="fas fa-graduation-cap  "></i>
+
+    </div>
+
+    <div class="col">
+
+
+      <div class="card" id="card3">
+        <div>
+          <h2>PRIMARIOS</h2>
+        </div>
+        <h3> Escuela Saúl Bueso Casteñeda</h3>
+        <P>En Santa Rita Copán</P>
+        <p>2009-2014</p>
+      </div>
+
+      <div class="card" id="card4">
+        <div>
+
+          <h2>SECUNDARIOS</h2>
+        </div>
+        <h3>Instituto Superacion Cashapa</h3>
+        <p>CICLO COMÚN</p>
+        <p>BTP EN INFORMÁTICA</p>
+      </div>
+
+      <div class="card" id="card5">
+        <div>
+
+          <h2>SECUNDARIOS</h2>
+        </div>
+        <h3>Instituto Superacion Cashapa</h3>
+        <p>CICLO COMÚN</p>
+        <p>BTP EN INFORMÁTICA</p>
+      </div>
+
+    </div>
+
+  </section>
 
   <footer>
     <div class="barra footer-nav">
@@ -68,14 +145,15 @@
         <a href="#">EXPERIENCIA LABORAL</a>
         <a href="#">REFERENCIAS PERSONALES</a>
       </nav>
-      <div class="icon" >
+      <div class="icon">
         <a href="https://www.facebook.com/erickmarleyarita">
-        <i class="fab fa-facebook fa-4x "></i>
-      </a>
+          <i class="fab fa-facebook-square fa-4x  "></i>
+        </a>
       </div>
     </div>
-    
-  </footer>
-</body>
 
+  </footer>
+
+</body>
+ <script src="app.js"></script>
 </html>
