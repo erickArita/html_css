@@ -74,19 +74,30 @@ body {
     width: 300px;
     height: 600;
     opacity: 0%;
+    height: 100vh;
+    
+    
 }
-
-.personales-info:hover {
+#pers{
+   font-size: 2rem;
+   border: 2px solid black;
+   width: 16rem;
+   cursor: pointer;
+}
+.active {
     display: flex;
     flex-direction: column;
     width: 400px;
-    height: 522px;
+    height: 100vh;
     background: #79D2CE;
     opacity: 100%;
     padding: 1rem;
-    padding-top: 8rem;
+    padding-top: 2rem;
+    transition-duration: 1s;
 }
-
+#info h1{
+    margin-top: 0;
+}
 .personales h1 {
     position: absolute;
 }
@@ -147,4 +158,7 @@ body {
     border-top: 1px solid black;
     border-bottom: 1px solid black;
    color: rgb(116, 39, 34);
+}
+#experiencia{
+  background-color: #44C154;  
 }

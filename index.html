@@ -31,14 +31,15 @@
           <a href="/">INICIO</a>
           <a href="#escolaridad">ESCOLARIDAD</a>
           <a href="#experiencia">EXPERIENCIA LABORAL</a>
-          <a href="#">REFERENCIAS PERSONALES</a>
+          <a href="#referencias">REFERENCIAS PERSONALES</a>
         </nav>
       </div>
       <img src="." alt="">
 
-      <div class="personales">
+      <p id="pers">INFORMACIÓN</p>
+      <div class="personales-info" id="info">
         <h1>ERICK MARLEY ARITA</h1>
-        <div class="personales-info">
+        <div class="personales">
 
           <div>
             <img
@@ -59,7 +60,7 @@
 
 
 
-  <section name class="seccion animated bounceInLeft " id="escolaridad">
+  <section name class="seccion animated  " id="escolaridad">
     <h2>ESCOLARIDAD</h2>
     <div class="i-estudio   ">
 
@@ -80,7 +81,8 @@
         <p>2009-2014</p>
       </div>
 
-      <div class="card animated" id="card2" >
+      <div class="card animated" id="card2" onmouseover="document.getElementById('card2').classList.add('pulse'); "
+        onmouseout="document.getElementById('card2').classList.remove('pulse');">
         <div>
 
           <h2>SECUNDARIOS</h2>
@@ -94,47 +96,94 @@
 
   </section>
 
-  <section name class="seccion animated bounceIn" id="experiencia">
-        <h2>ESCOLARIDAD</h2>
-        <div class="i-estudio   ">
+  <section name class="seccion animated " id="experiencia">
+    <h2>Experiencia Laboral</h2>
+    <div class="i-estudio   ">
 
-          <i class="fas fa-graduation-cap  "></i>
+      <i class="fa fa-user-tie  "></i>
 
+    </div>
+
+    <div class="col">
+
+
+      <div class="card animated" id="card3" onmouseover="document.getElementById('card3').classList.add('pulse'); "
+        onmouseout="document.getElementById('card3').classList.remove('pulse');">
+        <div>
+          <h2>Oracle</h2>
         </div>
+        <h3> Seattle</h3>
+        <P>Diseñadow web</P>
+        <p>2030-2032</p>
+      </div>
 
-        <div class="col">
+      <div class="card animated" id="card4" onmouseover="document.getElementById('card4').classList.add('pulse');"
+        onmouseout="document.getElementById('card4').classList.remove('pulse');">
+        <div>
 
-
-          <div class="card" id="card3">
-            <div>
-              <h2>PRIMARIOS</h2>
-            </div>
-            <h3> Escuela Saúl Bueso Casteñeda</h3>
-            <P>En Santa Rita Copán</P>
-            <p>2009-2014</p>
-          </div>
-
-          <div class="card" id="card4">
-            <div>
-
-              <h2>SECUNDARIOS</h2>
-            </div>
-            <h3>Instituto Superacion Cashapa</h3>
-            <p>CICLO COMÚN</p>
-            <p>BTP EN INFORMÁTICA</p>
-          </div>
-
-          <div class="card" id="card5">
-            <div>
-
-              <h2>SECUNDARIOS</h2>
-            </div>
-            <h3>Instituto Superacion Cashapa</h3>
-            <p>CICLO COMÚN</p>
-            <p>BTP EN INFORMÁTICA</p>
-          </div>
-
+          <h2>MICROSOFT</h2>
         </div>
+        <h3>Los Angeles</h3>
+        <p>Programador</p>
+        <p>2033-2035</p>
+      </div>
+
+      <div class="card animated" id="card5" onmouseover="document.getElementById('card5').classList.add('pulse'); "
+        onmouseout="document.getElementById('card5').classList.remove('pulse');">
+        <div>
+
+          <h2>Apple</h2>
+        </div>
+        <h3>Florida</h3>
+        <p>Programador xd</p>
+        <p>2036-2037</p>
+      </div>
+
+    </div>
+
+  </section>
+
+  <section name class="seccion animated " id="referencias">
+    <h2>Referencias</h2>
+    <div class="i-estudio   ">
+
+      <i class="fa fa-users  "></i>
+
+    </div>
+
+    <div class="col">
+
+
+      <div class="card animated" id="card3" onmouseover="document.getElementById('card3').classList.add('pulse'); "
+        onmouseout="document.getElementById('card3').classList.remove('pulse');">
+        <div>
+          <h2>Mark <br> Zuckerberg</h2>
+        </div>
+        <h3>Padrino</h3>
+        <p>6654684</p>
+      </div>
+
+      <div class="card animated" id="card4" onmouseover="document.getElementById('card4').classList.add('pulse');"
+        onmouseout="document.getElementById('card4').classList.remove('pulse');">
+        <div>
+          <h2>Tio</h2>
+        </div>
+        <h3> 2358784864</h3>
+        <p>6654684</p>
+      </div>
+
+      <div class="card animated" id="card5" onmouseover="document.getElementById('card5').classList.add('pulse'); "
+        onmouseout="document.getElementById('card5').classList.remove('pulse');">
+        <div>
+
+          <h2>Nevin Deras</h2>
+        </div>
+        <h3>Patron</h3>
+        <p>6654684</p>
+
+      </div>
+
+    </div>
 
   </section>
 
@@ -142,9 +191,9 @@
     <div class="barra footer-nav">
       <nav class="navegacion">
         <a href="/">INICIO</a>
-        <a href="#">ESCOLARIDAD</a>
-        <a href="#">EXPERIENCIA LABORAL</a>
-        <a href="#">REFERENCIAS PERSONALES</a>
+        <a href="#escolaridad">ESCOLARIDAD</a>
+        <a href="#experiencia">EXPERIENCIA LABORAL</a>
+        <a href="#referencias">REFERENCIAS PERSONALES</a>
       </nav>
       <div class="icon">
         <a href="https://www.facebook.com/erickmarleyarita">
@@ -154,6 +203,7 @@
     </div>
 
   </footer>
+
 
 </body>
 <script src="app.js"></script>
